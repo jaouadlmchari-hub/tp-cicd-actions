@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "jest --coverage",
-  "lint": "eslint src/"
+    "test": "jest --coverage",
+    "lint": "eslint src/"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/jaouadlmchari-hub/tp-cicd-actions#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "eslint": "^10.2.0",
+    "globals": "^17.5.0",
     "jest": "^30.3.0"
   }
 }
