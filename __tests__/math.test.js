@@ -1,6 +1,10 @@
 // __tests__/math.test.js
-
+const { subtract } = require('../src/math');
 const { add, multiply, factorial } = require('../src/math');
+
+test('soustraction de deux nombres', () => {
+  expect(subtract(5, 3)).toBe(2);
+});
 
 describe('add', () => {
   test('additionne deux nombres positifs', () => {
