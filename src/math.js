@@ -1,3 +1,6 @@
+
+var test = 1;
+
 function add(a, b) {
 return a + b;
 }
@@ -13,3 +16,4 @@ return n * factorial(n - 1);
 }
 
 module.exports = { add, multiply, factorial };
+
