@@ -1,5 +1,5 @@
 
-var test = 1;
+const test = 1;  
 
 function add(a, b) {
 return a + b;
